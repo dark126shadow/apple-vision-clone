@@ -209,14 +209,17 @@ Apple Vision Pro seamlessly blends digital content with your physical space. */
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: transparent;
+    background-color: #fff;
     position: absolute;
+    
+    
 }
 .text3>h1{
     font-size: 80px;
     text-align: center;
     color: white;
     font-weight: 900;
+    position:absolute;
 }
 .page5{
     height: 65vh;
