@@ -201,7 +201,8 @@ Apple Vision Pro seamlessly blends digital content with your physical space. */
     height: 100%;
     width: 100%;
     object-fit: cover;
-    
+    positiion:absolute;
+    z-index:-99;
 }
 .text3{
     height: 100%;
