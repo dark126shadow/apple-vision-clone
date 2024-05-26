@@ -201,7 +201,7 @@ Apple Vision Pro seamlessly blends digital content with your physical space. */
     height: 100%;
     width: 100%;
     object-fit: cover;
-    positiion:absolute;
+    positiion:relative;
     z-index:-99;
 }
 .text3{
@@ -211,7 +211,7 @@ Apple Vision Pro seamlessly blends digital content with your physical space. */
     align-items: center;
     justify-content: center;
  
-    position: relative;
+    position: absolute;
     z-index:99;
     
     
@@ -223,6 +223,7 @@ Apple Vision Pro seamlessly blends digital content with your physical space. */
     color: white;
     font-weight: 900;
     position:absolute;
+    z-index:999;
 }
 .page5{
     height: 65vh;
